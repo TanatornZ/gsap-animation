@@ -101,7 +101,7 @@ function TimelineAnimation() {
   );
   return (
     <div className="p-10 timelineDemo" ref={timelineContainer}>
-      <h1 className="text-xl">Timeline Animation</h1>
+      <h1 className="text-2xl font-semibold text-center">Timeline Animation</h1>
       <div
         className="box-timeline green size-20 rounded-lg mt-5"
         id="green"

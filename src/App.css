@@ -1,5 +1,5 @@
 .timleineUI-row {
-  background-color: #2f2f2f;
+  background-color: #777;
   margin: 2px 0;
   padding: 4px;
   border-radius: 4px;
@@ -50,7 +50,7 @@
   position: relative;
   width: 20px;
   height: 20px;
-  background-color: #fff;
+  background-color: #3f3f3f;
   left: -10px;
   border-radius: 99px;
 }
@@ -62,7 +62,7 @@
   height: 95px;
   top: 100%;
   left: calc(50% - 1px);
-  border-left: solid 2px #fff;
+  border-left: solid 2px #3f3f3f;
 }
 
 .timelineUI-dragger div::before {
