@@ -1,0 +1,146 @@
+.timleineUI-row {
+  background-color: #2f2f2f;
+  margin: 2px 0;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.markers {
+  display: flex;
+  width: 100%;
+  align-items: space-apart;
+  justify-content: space-between;
+}
+
+.secondMarker {
+  border-left: solid 1px #aaa;
+  height: 10px;
+  display: inline-block;
+  position: relative;
+  line-height: 16px;
+  font-size: 16px;
+  color: #777;
+}
+
+.timelineUI-tween {
+  position: relative;
+  width: 20%;
+  height: 16px;
+  border-radius: 8px;
+}
+
+.timelineUI-tween.green {
+  width: 40%;
+}
+
+.timelineUI-dragger-track {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.timelineUI-dragger {
+  position: absolute;
+  width: 10px;
+  height: 100px;
+  top: -25px;
+}
+
+.timelineUI-dragger div {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  left: -10px;
+  border-radius: 99px;
+}
+
+.timelineUI-dragger div::after {
+  content: " ";
+  position: absolute;
+  width: 1px;
+  height: 95px;
+  top: 100%;
+  left: calc(50% - 1px);
+  border-left: solid 2px #fff;
+}
+
+.timelineUI-dragger div::before {
+  content: " ";
+  position: absolute;
+  width: 20px;
+  height: 114px;
+  top: -20px;
+  left: -10px;
+}
+
+.timelineUI-time {
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+}
+
+.controls {
+  margin: 10px 2px;
+}
+
+.prettyprint {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.timelineUI-button {
+  background: transparent;
+  border-radius: 99px;
+  border: solid 2px #adadad;
+  color: #adadad;
+  text-decoration: none;
+  margin: 0.5rem auto;
+  font-family: "Signika Negative", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: table;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 18px;
+  outline: none;
+  display: inline-block;
+  padding: 8px 14px;
+}
+
+.timelineUI-button:hover {
+  background: #5f5f5f;
+  text-decoration: none;
+  color: #42433d;
+}
+
+.element-box {
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+  padding: 17px 26px 17px 26px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.demoBody .prettyprint {
+  min-width: 300px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.timelineDemo .green {
+  background-color: #0ae448;
+}
+
+.timelineDemo .orange {
+  background-color: #ff8709;
+}
+.timelineDemo .purple {
+  background-color: #9d95ff;
+}
