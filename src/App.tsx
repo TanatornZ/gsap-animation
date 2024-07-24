@@ -7,6 +7,7 @@ import StaggerAnimation from "./components/Animations/StaggerAnimation";
 import TimelineAnimation from "./components/Animations/TimelineAnimation";
 import BasicScroll from "./components/ScrollTrigger/BasicScroll";
 import ProfileExample from "./components/Examples/Profile";
+import FlipAnimation from "./components/Examples/FlipAnimation";
 
 function App() {
   return (
@@ -37,6 +38,14 @@ function App() {
           element={
             <>
               <ProfileExample />
+            </>
+          }
+        />
+        <Route
+          path="/flip"
+          element={
+            <>
+              <FlipAnimation />
             </>
           }
         />
